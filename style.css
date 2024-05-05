@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #66645A;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+.msg{
+    height: 10vh;
+}
+.msg p{
+    font-size: 6vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.container h1{
+    font-size: 10vh;
+    font-family: pp mori;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 65vh;
+    margin-top: 30px;
+}
+.box{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px #8F8D87;
+    background-color: transparent;
+    margin: 2px;
+    font-size: 10vh;
+    cursor: pointer;
+    color: #E5E7E6;
+}
+.main-buttons{
+    margin: 20px;
+}
+.reset{
+    margin-top: 2%;
+    height: 5vh;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid ;
+    color: #E5E7E6;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #8F8D87;
+
+}
+.newGame{
+    margin-left: 10px;
+    font-size: 17px;
+    margin-top: 2%;
+    height: 5vh;
+    width: 105px;
+    border-radius: 50px;
+    border: 1px solid ;
+    color: #E5E7E6;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #8F8D87;
+}
+
+
+
+@media(max-width: 780px){
+    .container{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    }
+    .msg p{
+        margin-top: 5px;
+        font-size: 4vh;
+    }
+
+    .container h1{
+        font-size: 5vh;
+        font-family: pp mori;
+        font-weight: 500;
+        margin-top: 2px;
+    }
+
+    .game{
+        height: 55vh;
+        width: 60vh;
+    }
+    .box{
+        height: 15vh;
+        width: 15vh;
+    }
+}
+
+
+
+@media(max-width: 500px){
+    .msg p{
+        margin-top: 5px;
+        font-size: 4vh;
+    }
+
+    .container h1{
+        font-size: 5vh;
+        font-family: pp mori;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .game{
+        height: 60vh;
+        width: 60vh;
+    }
+    .box{
+        height: 20vh;
+        width: 15vh;
+    }
+}
